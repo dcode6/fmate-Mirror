@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+signUp_TC,Chrome 66.0.3359.66,test new registration,2018-04-01 01:02:41,2018-04-01 01:03:53,1m - 12.468s,PASSED
+,,,,,,
+Test Cases/signUp/signUpFromHomePage,Chrome 66.0.3359.66,simple sign up from home page,2018-04-01 01:02:56,2018-04-01 01:03:47,51.099s,PASSED
+navigateToUrl,Chrome 66.0.3359.66,,2018-04-01 01:02:57,2018-04-01 01:03:05,8.021s,PASSED
+waitForAngularLoad,Chrome 66.0.3359.66,,2018-04-01 01:03:05,2018-04-01 01:03:12,7.466s,PASSED
+verifyElementPresent,Chrome 66.0.3359.66,,2018-04-01 01:03:12,2018-04-01 01:03:12,0.093s,PASSED
+Statement - username = CustomKeywords.essentials.dateTimeData.generateUsername(),Chrome 66.0.3359.66,,2018-04-01 01:03:12,2018-04-01 01:03:12,0.056s,PASSED
+Statement - email = CustomKeywords.essentials.dateTimeData.generateEmail(username),Chrome 66.0.3359.66,,2018-04-01 01:03:12,2018-04-01 01:03:12,0.016s,PASSED
+setText,Chrome 66.0.3359.66,,2018-04-01 01:03:12,2018-04-01 01:03:13,0.892s,PASSED
+setText,Chrome 66.0.3359.66,,2018-04-01 01:03:13,2018-04-01 01:03:14,0.380s,PASSED
+Statement - boolEmailRequired = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homePage_OR/span_Email is required. (1))),Chrome 66.0.3359.66,,2018-04-01 01:03:14,2018-04-01 01:03:14,0.110s,PASSED
+Statement - boolEmailInvalied = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homePage_OR/span_Invalid email address.)),Chrome 66.0.3359.66,,2018-04-01 01:03:14,2018-04-01 01:03:14,0.081s,PASSED
+Statement - boolPassRequired = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homePage_OR/span_Password is required. (1))),Chrome 66.0.3359.66,,2018-04-01 01:03:14,2018-04-01 01:03:14,0.101s,PASSED
+Statement - boolPassLenError = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homePage_OR/span_Password must be minimum)),Chrome 66.0.3359.66,,2018-04-01 01:03:14,2018-04-01 01:03:14,0.073s,PASSED
+click,Chrome 66.0.3359.66,,2018-04-01 01:03:14,2018-04-01 01:03:14,0.474s,PASSED
+"Statement - boolEmailAlreadyPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homePage_OR/div_That email or username is), OPTIONAL)",Chrome 66.0.3359.66,,2018-04-01 01:03:14,2018-04-01 01:03:47,32.357s,PASSED
+waitForPageLoad,Chrome 66.0.3359.66,,2018-04-01 01:03:47,2018-04-01 01:03:47,0.034s,PASSED
+verifyElementPresent,Chrome 66.0.3359.66,,2018-04-01 01:03:47,2018-04-01 01:03:47,0.072s,PASSED
+click,Chrome 66.0.3359.66,,2018-04-01 01:03:47,2018-04-01 01:03:47,0.264s,PASSED
+waitForPageLoad,Chrome 66.0.3359.66,,2018-04-01 01:03:47,2018-04-01 01:03:47,0.019s,PASSED
+verifyElementVisible,Chrome 66.0.3359.66,,2018-04-01 01:03:47,2018-04-01 01:03:47,0.075s,PASSED

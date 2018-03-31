@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Log Out</name>
+   <tag></tag>
+   <elementGuidId>fc12d1c9-110d-4005-bfc2-db55982982ff</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ui-sref</name>
+      <type>Main</type>
+      <value>logout</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>javascript:$('#loginTab').trigger('click');</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/logout</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Log Out</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;search_top&quot;)/section[@class=&quot;desk-hdr&quot;]/div[@class=&quot;container top&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-5 col-xs-5 pull-right signin&quot;]/ul[@class=&quot;header_menu&quot;]/li[@class=&quot;dropdown open user_profiless deskk ng-scope&quot;]/ul[@class=&quot;dropdown-menu browse-nav-inner showlist2 resprof_open&quot;]/li[@class=&quot;last&quot;]/a[@class=&quot;ng-binding&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

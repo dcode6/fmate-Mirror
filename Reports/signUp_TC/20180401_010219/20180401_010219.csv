@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+signUp_TC,Firefox 58.0,test new registration,2018-04-01 01:02:40,2018-04-01 01:04:20,1m - 39.939s,FAILED
+,,,,,,
+Test Cases/signUp/signUpFromHomePage,Firefox 58.0,simple sign up from home page,2018-04-01 01:03:20,2018-04-01 01:04:14,53.606s,FAILED
+navigateToUrl,Firefox 58.0,,2018-04-01 01:03:21,2018-04-01 01:03:29,7.916s,PASSED
+waitForAngularLoad,Firefox 58.0,,2018-04-01 01:03:29,2018-04-01 01:03:35,6.180s,PASSED
+verifyElementPresent,Firefox 58.0,,2018-04-01 01:03:35,2018-04-01 01:03:36,0.786s,PASSED
+Statement - username = CustomKeywords.essentials.dateTimeData.generateUsername(),Firefox 58.0,,2018-04-01 01:03:36,2018-04-01 01:03:36,0.154s,PASSED
+Statement - email = CustomKeywords.essentials.dateTimeData.generateEmail(username),Firefox 58.0,,2018-04-01 01:03:36,2018-04-01 01:03:36,0.003s,PASSED
+setText,Firefox 58.0,,2018-04-01 01:03:36,2018-04-01 01:03:38,1.912s,PASSED
+setText,Firefox 58.0,,2018-04-01 01:03:38,2018-04-01 01:03:38,0.305s,PASSED
+Statement - boolEmailRequired = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homePage_OR/span_Email is required. (1))),Firefox 58.0,,2018-04-01 01:03:38,2018-04-01 01:03:39,0.970s,PASSED
+Statement - boolEmailInvalied = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homePage_OR/span_Invalid email address.)),Firefox 58.0,,2018-04-01 01:03:39,2018-04-01 01:03:40,0.394s,PASSED
+Statement - boolPassRequired = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homePage_OR/span_Password is required. (1))),Firefox 58.0,,2018-04-01 01:03:40,2018-04-01 01:03:40,0.171s,PASSED
+Statement - boolPassLenError = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homePage_OR/span_Password must be minimum)),Firefox 58.0,,2018-04-01 01:03:40,2018-04-01 01:03:40,0.094s,PASSED
+click,Firefox 58.0,,2018-04-01 01:03:40,2018-04-01 01:03:41,0.763s,PASSED
+"Statement - boolEmailAlreadyPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homePage_OR/div_That email or username is), OPTIONAL)",Firefox 58.0,,2018-04-01 01:03:41,2018-04-01 01:04:13,32.414s,PASSED
+waitForPageLoad,Firefox 58.0,,2018-04-01 01:04:13,2018-04-01 01:04:13,0.051s,PASSED
+verifyElementPresent,Firefox 58.0,,2018-04-01 01:04:13,2018-04-01 01:04:13,0.113s,PASSED
+click,Firefox 58.0,,2018-04-01 01:04:13,2018-04-01 01:04:14,0.412s,PASSED
+waitForPageLoad,Firefox 58.0,,2018-04-01 01:04:14,2018-04-01 01:04:14,0.055s,PASSED
+verifyElementVisible,Firefox 58.0,,2018-04-01 01:04:14,2018-04-01 01:04:14,0.214s,FAILED

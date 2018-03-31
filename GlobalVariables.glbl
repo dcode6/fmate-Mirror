@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <tag></tag>
+   <GlobalVariableEntity>
+      <description>base url of the project</description>
+      <initValue>'http://138.68.48.172'</initValue>
+      <name>bsaeURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>dummy email</description>
+      <initValue>'http://www.yopmail.com/en/'</initValue>
+      <name>yopmail</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

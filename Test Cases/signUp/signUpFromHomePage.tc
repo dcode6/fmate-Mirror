@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>simple sign up from home page</description>
+   <name>signUpFromHomePage</name>
+   <tag>home page sign up</tag>
+   <comment></comment>
+   <testCaseGuid>eac3ff64-e005-4a12-81c8-8bf14159683d</testCaseGuid>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>283ee7ee-4efd-43b1-a3e5-f5981cc2e35d</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>e0a449b8-12e3-4094-9c45-eb6a1bd1c63b</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'123456'</defaultValue>
+      <description></description>
+      <id>516074d3-1f69-4622-9b7e-0acab61617ce</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

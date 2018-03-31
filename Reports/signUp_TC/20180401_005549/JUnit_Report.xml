@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="signUp_TC" time="98" tests="0" failures="1" errors="0">
+   <testsuite name="signUp_TC" tests="0" failures="1" errors="0" time="98" timestamp="2018-04-01 00:55:59" hostname="Devakumar M - DevaPc" id="Test Suites/signUp_TC">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Devakumar M\\Katalon Studio\\fashmate Mirror\\Reports\\signUp_TC\\20180401_005549"/>
+         <property name="logFiles" value="C:\\Users\\Devakumar M\\Katalon Studio\\fashmate Mirror\\Reports\\signUp_TC\\20180401_005549\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Devakumar M\\Katalon Studio\\fashmate Mirror\\Reports\\signUp_TC\\20180401_005549\\1522524420589.png, C:\\Users\\Devakumar M\\Katalon Studio\\fashmate Mirror\\Reports\\signUp_TC\\20180401_005549\\1522524451966.png"/>
+         <property name="hostName" value="Devakumar M - DevaPc"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.3.1.1"/>
+         <property name="browser" value="Chrome 66.0.3359.66"/>
+         <property name="hostAddress" value="192.168.137.1"/>
+         <property name="sessionId" value="cd3fba79558a96afbf8149c3deffa843"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/signUp/signUpFromHomePage" classname="Test Cases/signUp/signUpFromHomePage" status="FAILED">
+         <failure type="FAILED" message="Unable to wait for Angular to load. (Root cause: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword$1@1b1637e1 (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DEVAPC', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\DEVAKU~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.66, webStorageEnabled: true}
+Session ID: cd3fba79558a96afbf8149c3deffa843)"/>
+         <system-out><![CDATA[2018-04-01 00:56:11 - [TEST_CASE][FAILED] - Test Cases/signUp/signUpFromHomePage: Test Cases/signUp/signUpFromHomePage FAILED because (of) Unable to wait for Angular to load. (Root cause: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword$1@1b1637e1 (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DEVAPC', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\DEVAKU~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.66, webStorageEnabled: true}
+Session ID: cd3fba79558a96afbf8149c3deffa843)
+
+2018-04-01 00:56:12 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://138.68.48.172'
+
+2018-04-01 00:56:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-04-01 00:56:22 - [MESSAGE][PASSED] - Browser is opened with url: 'http://138.68.48.172'
+
+2018-04-01 00:56:22 - [TEST_STEP][PASSED] - waitForAngularLoad: Angular is ready.
+
+2018-04-01 00:56:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-01 00:56:26 - [MESSAGE][PASSED] - Angular is ready.
+
+2018-04-01 00:56:26 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/homePage_OR/img_desk_logo ng-scope (1)' is present
+
+2018-04-01 00:56:26 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-01 00:56:26 - [MESSAGE][PASSED] - Object 'Object Repository/homePage_OR/img_desk_logo ng-scope (1)' is present
+
+2018-04-01 00:56:26 - [TEST_STEP][PASSED] - Statement - username = CustomKeywords.essentials.dateTimeData.generateUsername(): essentials.dateTimeData.generateUsername is PASSED
+
+2018-04-01 00:56:26 - [MESSAGE][PASSED] - essentials.dateTimeData.generateUsername is PASSED
+
+2018-04-01 00:56:26 - [TEST_STEP][PASSED] - Statement - email = CustomKeywords.essentials.dateTimeData.generateEmail(username): essentials.dateTimeData.generateEmail is PASSED
+
+2018-04-01 00:56:26 - [MESSAGE][PASSED] - essentials.dateTimeData.generateEmail is PASSED
+
+2018-04-01 00:56:26 - [TEST_STEP][PASSED] - setText: Text '1804012426@yopmail.com' is set on object 'Object Repository/homePage_OR/input_email (1)'
+
+2018-04-01 00:56:27 - [MESSAGE][PASSED] - Text '1804012426@yopmail.com' is set on object 'Object Repository/homePage_OR/input_email (1)'
+
+2018-04-01 00:56:27 - [TEST_STEP][PASSED] - setText: Text '123456' is set on object 'Object Repository/homePage_OR/input_pwd (1)'
+
+2018-04-01 00:56:27 - [MESSAGE][PASSED] - Text '123456' is set on object 'Object Repository/homePage_OR/input_pwd (1)'
+
+2018-04-01 00:56:27 - [TEST_STEP][PASSED] - Statement - boolEmailRequired = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homePage_OR/span_Email is required. (1))): Object 'Object Repository/homePage_OR/span_Email is required. (1)' is NOT visible
+
+2018-04-01 00:56:27 - [MESSAGE][PASSED] - Object 'Object Repository/homePage_OR/span_Email is required. (1)' is NOT visible
+
+2018-04-01 00:56:27 - [TEST_STEP][PASSED] - Statement - boolEmailInvalied = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homePage_OR/span_Invalid email address.)): Object 'Object Repository/homePage_OR/span_Invalid email address.' is NOT visible
+
+2018-04-01 00:56:27 - [MESSAGE][PASSED] - Object 'Object Repository/homePage_OR/span_Invalid email address.' is NOT visible
+
+2018-04-01 00:56:27 - [TEST_STEP][PASSED] - Statement - boolPassRequired = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homePage_OR/span_Password is required. (1))): Object 'Object Repository/homePage_OR/span_Password is required. (1)' is NOT visible
+
+2018-04-01 00:56:27 - [MESSAGE][PASSED] - Object 'Object Repository/homePage_OR/span_Password is required. (1)' is NOT visible
+
+2018-04-01 00:56:27 - [TEST_STEP][PASSED] - Statement - boolPassLenError = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homePage_OR/span_Password must be minimum)): Object 'Object Repository/homePage_OR/span_Password must be minimum' is NOT visible
+
+2018-04-01 00:56:28 - [MESSAGE][PASSED] - Object 'Object Repository/homePage_OR/span_Password must be minimum' is NOT visible
+
+2018-04-01 00:56:28 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/homePage_OR/button_Join  Get 15.00 (1)' is clicked on
+
+2018-04-01 00:56:28 - [MESSAGE][PASSED] - Object: 'Object Repository/homePage_OR/button_Join  Get 15.00 (1)' is clicked on
+
+2018-04-01 00:56:28 - [TEST_STEP][PASSED] - Statement - boolEmailAlreadyPresent = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementNotVisible(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(homePage_OR/div_That email or username is), OPTIONAL): Web element with id: 'Object Repository/homePage_OR/div_That email or username is' located by 'By.xpath: //div[(text() = '"That email or username is already taken."' or . = '"That email or username is already taken."')]' not found
+
+2018-04-01 00:57:00 - [MESSAGE][WARNING] - Web element with id: 'Object Repository/homePage_OR/div_That email or username is' located by 'By.xpath: //div[(text() = '"That email or username is already taken."' or . = '"That email or username is already taken."')]' not found
+[[ATTACHMENT|C:\\Users\\Devakumar M\\Katalon Studio\\fashmate Mirror\\Reports\\signUp_TC\\20180401_005549\\1522524420589.png]]
+
+2018-04-01 00:57:00 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-04-01 00:57:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-01 00:57:00 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-04-01 00:57:00 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/followBrand_OR/h1_Follow Your Favorite Brands' is present
+
+2018-04-01 00:57:00 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-01 00:57:01 - [MESSAGE][PASSED] - Object 'Object Repository/followBrand_OR/h1_Follow Your Favorite Brands' is present
+
+2018-04-01 00:57:01 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/followBrand_OR/button_Continue to My Feed' is clicked on
+
+2018-04-01 00:57:01 - [MESSAGE][PASSED] - Object: 'Object Repository/followBrand_OR/button_Continue to My Feed' is clicked on
+
+2018-04-01 00:57:01 - [TEST_STEP][FAILED] - waitForAngularLoad: Unable to wait for Angular to load. (Root cause: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword$1@1b1637e1 (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DEVAPC', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\DEVAKU~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.66, webStorageEnabled: true}
+Session ID: cd3fba79558a96afbf8149c3deffa843)
+
+2018-04-01 00:57:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-04-01 00:57:32 - [MESSAGE][FAILED] - Unable to wait for Angular to load. (Root cause: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword$1@1b1637e1 (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DEVAPC', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\DEVAKU~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.66, webStorageEnabled: true}
+Session ID: cd3fba79558a96afbf8149c3deffa843)
+[[ATTACHMENT|C:\\Users\\Devakumar M\\Katalon Studio\\fashmate Mirror\\Reports\\signUp_TC\\20180401_005549\\1522524451966.png]]]]></system-out>
+         <system-err><![CDATA[2018-04-01 00:56:11 - [TEST_CASE][FAILED] - Test Cases/signUp/signUpFromHomePage: Test Cases/signUp/signUpFromHomePage FAILED because (of) Unable to wait for Angular to load. (Root cause: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword$1@1b1637e1 (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DEVAPC', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\DEVAKU~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.66, webStorageEnabled: true}
+Session ID: cd3fba79558a96afbf8149c3deffa843)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-04-01 00:55:59 - [TEST_SUITE][FAILED] - signUp_TC: Test Cases/signUp/signUpFromHomePage FAILED because (of) Unable to wait for Angular to load. (Root cause: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword$1@1b1637e1 (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DEVAPC', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\DEVAKU~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.66, webStorageEnabled: true}
+Session ID: cd3fba79558a96afbf8149c3deffa843)]]></system-out>
+      <system-err><![CDATA[2018-04-01 00:55:59 - [TEST_SUITE][FAILED] - signUp_TC: Test Cases/signUp/signUpFromHomePage FAILED because (of) Unable to wait for Angular to load. (Root cause: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for com.kms.katalon.core.webui.keyword.builtin.WaitForAngularLoadKeyword$1@1b1637e1 (tried for 30 second(s) with 500 MILLISECONDS interval)
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'DEVAPC', ip: '192.168.137.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\DEVAKU~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 66.0.3359.66, webStorageEnabled: true}
+Session ID: cd3fba79558a96afbf8149c3deffa843)]]></system-err>
+   </testsuite>
+</testsuites>

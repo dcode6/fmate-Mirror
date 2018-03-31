@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportCollectionEntity>
+   <description></description>
+   <name>20180401_010219</name>
+   <tag></tag>
+   <displayName>20180401_010219</displayName>
+   <reportItemDescriptions>
+      <ReportItemDescription>
+         <reportLocation>Reports/signUp_TC/20180401_010219</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <runConfigurationId>Firefox</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+      <ReportItemDescription>
+         <reportLocation>Reports/signUp_TC/20180401_010227</reportLocation>
+         <runConfigDescription>
+            <groupName>Web Desktop</groupName>
+            <runConfigurationId>Chrome</runConfigurationId>
+         </runConfigDescription>
+      </ReportItemDescription>
+   </reportItemDescriptions>
+</ReportCollectionEntity>
